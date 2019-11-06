@@ -57,7 +57,7 @@ class AddBuilding extends React.Component {
 		if (!expand) {
 			return (
 				<div className=" text-center">
-					<button onClick={(e) => this.setState({ expand: true })}>Add Building</button>
+					<button onClick={(e) => this.setState({ expand: true })}>Add New</button>
 				</div>
 			);
 		}
