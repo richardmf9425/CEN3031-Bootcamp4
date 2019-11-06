@@ -15,7 +15,7 @@ class ViewBuilding extends React.Component {
 			}
 			const { code, name, address, coordinates } = building;
 			return (
-				<div className="building-info">
+				<div className=" card text-center">
 					<b>Code: </b> {code}
 					<br />
 					<b>Name: </b> {name}
